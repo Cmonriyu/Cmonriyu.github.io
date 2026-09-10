@@ -1,32 +1,37 @@
 .chewy-regular {
-  font-family: "Chewy", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .doppio-one-regular {
-  font-family: "Doppio One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Doppio One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
 }
 
 
 header {
     background-color: Black;
-    color:White;
+    color: White;
     text-align: center;
     padding: 1px;
-    font-family:"Doppio One", sans-serif;
+    font-family: "Doppio One", sans-serif;
 }
 
 main {
     background-color: #003569;
     color: white;
     text-align: center;
-    padding:20px;
+    padding: 20px;
 }
-#mainbody{
-    display:flex;
+
+#mainbody {
+    display: flex;
     justify-content: space-evenly;
     font-family: "Doppio One", sans-serif;
 }
@@ -38,12 +43,8 @@ main {
 
 }
 
-.profileimage{
+.profileimage {
     border-radius: 40px;
-}
-
-#nametext{
-
 }
 
 #underbody {
@@ -52,13 +53,31 @@ main {
     color: white;
 }
 
-footer{
+footer {
     background-color: Black;
-    color:gray;
+    color: gray;
     text-align: center;
 }
 
-#form{
+#form {
     background-color: white;
+}
+
+.links {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.links:hover {
+    background-color: darkblue;
+}
+
+#active{
+    background-color: darkblue;
 }
 
