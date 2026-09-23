@@ -1,83 +1,37 @@
-.chewy-regular {
-    font-family: "Chewy", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.doppio-one-regular {
-    font-family: "Doppio One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 body {
-    background-color: black;
-}
-
-
-header {
-    background-color: Black;
-    color: White;
-    text-align: center;
-    padding: 1px;
-    font-family: "Doppio One", sans-serif;
-}
-
-main {
-    background-color: #003569;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-#mainbody {
+    background: linear-gradient(135deg, aliceblue, #e0f7fa);
+    height: 100vh;
+    margin: 0;
     display: flex;
-    justify-content: space-evenly;
-    font-family: "Doppio One", sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial Black", sans-serif;
 }
 
-#navbar {
+#main {
     text-align: center;
-    background-color: #a39163;
-    padding: 10px;
-
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    border: 5px solid lightcoral;
 }
 
-.profileimage {
-    border-radius: 40px;
-}
 
-#underbody {
-    background-color: #003569;
-    text-align: center;
-    color: white;
-}
-
-footer {
-    background-color: Black;
-    color: gray;
-    text-align: center;
-}
-
-#form {
-    background-color: white;
-}
-
-.links {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    text-decoration: none;
+button{
+    background-color: rgb(127, 255, 212);
+    border: 5px solid rgb(255, 192, 203);
     border-radius: 5px;
+    font-size: large;
+    font-family: "Arial Black", sans-serif;
+}   
 
+button:hover {
+    background-color: rgb(87, 215, 172);
+    border-color: rgb(215, 152, 163);
 }
 
-.links:hover {
-    background-color: darkblue;
+button:active {
+    transform: translateY(2px);
+    background-color: rgb(47, 175, 132);
+    border-color: rgb(175, 112, 123);
 }
-
-#active{
-    background-color: darkblue;
-}
-
