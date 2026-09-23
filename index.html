@@ -2,62 +2,32 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
 <body>
-    <div>
-        <header>
-            <h1 id="title" class="text">Team 5</h1>
-        </header>
-    </div>
-    <div>
-        <nav id="navbar">   
-            <a id="active" class="links" href=index.html> Home</a>
-            <a class="links" href=about.html> About</a>
-            <a class="links" href=contact.html> Contact</a>
-        </nav>
-    </div>
-    <div>
-        <main>
-            <br>
-            <div id="mainbody">
-                <div>
-                    <img class="profileimage" src="images/riyu.png" alt="cute kitty" width=300>
-                    <p class="nametext">Riyu Reyes</p>
-                </div>
-                <div>
-                    <img class="profileimage" src="images/kiryuThumbsUp.jpg" alt="thumbs up" width=300>
-                    <p class="nametext">Nico Sabal</p>
-                </div>
-                <div>
-                    <img class="profileimage" src="images/IMG_2213 2.jpeg" alt="picture of Alexis" width=300>
-                    <p class="nametext">Alexis Ponce</p>
-                </div>
+    <div id="main">
+        <input type="number" id="input">
+        <button id="guessButton">Guess!</button>
+        
+        <p id="guessMessage">Guess Between 1-99</p>
+        <p>Guesses Left:</p>
+        <p id="guessCount">7</p>
+        <p>Guessed:
+        <p id="pastGuesses"></p>
+        </p>
+        <p id="pastGuesses"></p>
+        <br>
+        <p id="WL"> W: 0 L: 0 </p>
+        <br>
+        <button id="resetButton" >Reset!</button>
+        <script src="scripts/scripts.js"></script>
+        <link rel="stylesheet" href="scripts/style.css">
 
-                <div>
-                    <img class="profileimage" src="images/William.jpg" alt="picture of William" width=300>
-                    <p class="nametext">William Langley</p>
-                </div>
-            </div>
-            <div id="underbody">
-                <p id="Welcome" class="text"> Thank you for visiting our website. We are Team 5. </p>
-                <p id="Quote" class="text">Life is like riding a bicycle. To keep your balance you must keep moving." — Albert Einstein </p>
-            </div>
-        </main>
     </div>
-    <div>
-        <footer>
-            <img id="logo" src="images/logo.png" width = 100>
-            <p  id="footer" class="text" > CST336 Internet Programming. 2026 Reyes <br>
-            <b>Disclaimer:</b> The information on this website is ficticious. <br>
-            It is used for academic purposes only.
-            </p>
-        </footer>
-    </div>
+
 </body>
 
 </html>
